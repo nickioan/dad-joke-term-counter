@@ -6,10 +6,10 @@
     
     <body>
     <h1>Dad Joke Term Counter</h1>
-    <div class="dataframe-container" style="text-align: center;">
+    <div class="dataframe-container">
         {% for table in tables %}
-            {{ table|safe }}
-        {% endfor %}   
+        {{ table|safe }}
+        {% endfor %}
     </div>
     <div class="button-wrap">
         <form action="/table" method="POST">
