@@ -1,0 +1,16 @@
+<!Doctype html>
+    <head>
+        <title>Dad Joke Term Counter</title>
+        <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        <h1>Dad Joke Term Counter</h1>
+        <div class="button-wrap">
+            <form action="" method="POST">
+                <label for="jokes">Number of jokes(>10)</label>
+                <p><input type="number" id="jokes" name="jokes" min="10"></p>
+                <p><input type="submit" class="button" value="Get me counts!"/></p>
+            </form>
+        </div>
+    </body>
+</html>
