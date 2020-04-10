@@ -3,14 +3,15 @@
 DJranker is an applications that displays the 10 most common terms in a corpus of jokes. The jokes are randomly fetched using the [icanhazdadjoke](https://icanhazdadjoke.com/api) API, and the user gets to select the number of random jokes to be fetched with a minimum of 10 jokes
 
 ## Installation
+Requires python 3.7.x
 
 ```git clone https://github.com/nickioan/Dad-Joke-Term-Counter.git```
 
-```pip install flask```
+```python3 -m pip install flask```
 
-```pip install requests```
+```python3 -m pip install requests```
 
-```pip install pandas```
+```python3 -m pip install pandas```
 
 
 
