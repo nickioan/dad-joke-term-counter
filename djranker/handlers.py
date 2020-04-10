@@ -12,7 +12,7 @@ def get_jokes(word_counter):
         joke = jsonRes['joke']
         word_counter.add_joke(joke)      
     except HTTPError as http_err:
-        print(f'HTTP error occured: {http_err}')
+        print('HTTP error occured: {}'.format(http_err))
     except Exception as err:
-        print(f'Other error occured: {err}')
+        print('Other error occured: {}'.format(err))
     return
