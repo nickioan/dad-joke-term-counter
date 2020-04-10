@@ -4,7 +4,7 @@ DJranker is an applications that displays the 10 most common terms in a corpus o
 
 ## Installation
 
-```git clone```
+```git clone https://github.com/nickioan/Dad-Joke-Term-Counter.git```
 
 ```pip install flask```
 
